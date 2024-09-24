@@ -1,0 +1,55 @@
+body{
+	background-color: #79A4F3;
+	text-align: center;
+}
+h1{
+	color: white;
+	font: oblique bold 120% cursive;
+	font-size: 40px;
+}
+table{
+	text-align: left;
+	font: oblique bold 100% cursive;
+	color: black;
+	background-color: #EEFF5B;
+	width: 70%;
+	height: 40%;
+	border-collapse: collapse;
+	border:2px solid black;
+	table-layout: fixed;
+	
+}
+.tr{
+	padding: 5px;
+	border: 1px solid black;
+
+}
+
+.td{
+	padding: 5px;
+	border: 1px solid black;
+
+}
+.tabla{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+h3{
+	color: white;
+	font: oblique bold 120% cursive;
+	font-size: 15px;
+	text-align: left;
+
+}
+p{
+	text-align: justify;
+}
+video{
+	width: 250px;
+	height: 250px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+	<title>Recetas</title>
+</head>
+<body>
+	<h1>Formulario y Recetas</h1>
+    <table>
+    	<tbody>
+    		<td>
+    			<form action="mailto:caseyangelinalopez@gmail" method="POST">
+    				<p>
+						<label for="nombre">Nombre del Cliente:</label>
+						<input type="text" name="nombre" maxlength="32">
+					</p><br>
+					<p>
+						<label for="tel">Telefono:</label>
+						<input type="text" name="tel" maxlength="10">
+					</p><br>
+					<p>
+						<label for="pago">Método de pago:</label>
+						<br/>
+						<input type="radio" name="pago" maxlength="32">Efectivo
+						<input type="radio" name="pago" maxlength="32">Tarjeta
+					</p><br>
+					<p>
+						<label for="fecha">Fecha:</label>
+						<input type="date" name="fecha" maxlength="20" placeholder="Ingresa fecha">
+				    </p><br>
+				    <p>
+				    	<label for="menu">menu:</label>
+                        <select name="menu" size="1">
+				    	    <option value="menu" checked>Desayunos</option>
+					        <option value="menu">Comidas</option>
+					        <option value="menu">Cenas</option>
+			      	    </select>
+				    </p><br>
+    			</form>
+    		</td>
+    		<td>
+    			<h4>Desayunos</h4>
+    			<a href="Desayunos.html"><img src="img/img1.jpg" height="200px" width="200px" ></a>
+    			<h4>Comidas</h4>
+    			<a href="Comidas.html"><img src="img/img2.jpg" height="200px" width="200px" ></a>
+    			<h4>Cenas</h4>
+    			<a href="Cenas.html"><img src="img/img3.jpg" height="200px" width="200px" ></a>
+    		</td>
+    	</tbody>
+    </table>
+    <input type="submit" name="enviar" value="Enviar"/>
+    <input type="reset" name="limpiarform" value="Borrar Datos de Formulario"/>
+    <p>RIVERA LÓPEZ CASEY ANGELINA</p>
+	<p>VERDUZCO JARA MELISSA JAMILETH</p>
+	<p>CBTIS 206</p>
+	<a href="index.html">Regresar a inicio</a>
+
+
+</body>
+</html>
